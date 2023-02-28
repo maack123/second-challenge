@@ -14,7 +14,7 @@ body {
    margin: 1rem;
   }
   form {
-    margin-left: 600px; 
+    margin-left: 500px; 
     width: 350px;
     max-width: 600px;
     min-width: 300px;
@@ -30,7 +30,6 @@ body {
   legend {
     margin-top: 1rem;
     margin-left: 1rem;
-  
   }
   #dropdown, #dropdown2 {
     margin-left: 1rem;
