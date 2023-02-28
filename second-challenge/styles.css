@@ -1,0 +1,55 @@
+body {
+    background-color: pink;
+    width: 100%;
+  }
+  h1,p {
+    text-align: center;
+    margin: 10px;
+  }
+  #name {
+    margin-left: 5px;
+  }
+  label {
+   display: block;
+   margin: 1rem;
+  }
+  form {
+    margin-left: 550px; 
+    width: 350px;
+    max-width: 600px;
+    min-width: 300px;
+    text-align: auto; 
+    border: solid pink 1px;
+    padding: 1px;
+    background-color: rgb(231, 189, 196);
+  }
+  #name, #email, #number {
+    width: 300px;
+    margin: 01px;
+  }
+  legend {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  
+  }
+  #dropdown, #dropdown2 {
+    margin-left: 1rem;
+    margin-top: 1px;
+  }
+  textarea {
+    margin-left: 1rem;
+    width: 100%;
+    margin-top: 3px;
+  }
+  #submit, #comments {
+    margin-left: 1rem;
+    margin-top: 5px;
+    width: 300px;
+    margin-bottom: 8px;
+  }
+
+  #survey-form {
+    margin: 3.125rem auto 0 auto;
+    
+
+  }

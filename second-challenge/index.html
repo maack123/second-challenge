@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>survey form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a survey form</p>
+    <section>
+      <form id="survey-form">
+        <label id="name-label">Name<input id="name" type="text" name="name" placeholder="enter your name" required></label>
+        <label id="email-label">Email <input id="email" type="email" placeholder="enter your email" required></label>
+        <label id="number-label">Age <input id="number" type="number" min="0" max="21" placeholder="age"></label>
+        
+        <legend>Which option best describes your current role?</legend>
+        <select id="dropdown">
+          <option value="">Select current role</option>
+          <option>Student</option>
+          <option>Full time</option>
+          <option>Part time</option>
+        </select>
+        
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+          <label><input id="recommend-yes" type="radio" name="radio-button" value="yes">yes</label>
+        <label><input id="recommend-no" type="radio" name="radio-button" value="no">no</label>
+        
+        <legend>What is your favorite feature of freeCodeCamp?</legend>
+        <select id="dropdown2"> 
+          <option>Challenges</option>
+          <option>Community</option>
+          <option>projects</option>
+        </select>
+        
+        <legend>What would you like to see improved? (Check all that apply)</legend>
+          <label for="checkbox1"><input id="checkbox1" type="checkbox" name="checkbox1" value="1">Front-end Projects</label>
+          <label for="checkbox2"><input id="checkbox2" type="checkbox" value="2">Back-end Projects</label>
+          <label><input id="checkbox3" type="checkbox" value="3">Additional Courses</label>
+        
+          <legend>Any comments or suggestions?</legend>
+            <textarea id="comments" placeholder="Enter Your Comments Here..."></textarea>
+            <input type="submit" id="submit">
+      </form>
+    </section>
+
+  </body>
+</html>
